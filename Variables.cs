@@ -47,8 +47,8 @@ namespace NGW_SharePoint.Variables
 
         //Class Email variable
         public static string mailSubject = "Test Automation Results- " + Utility.Utility.GetCurrentDate();
-        public static string smtpServerName = "rb-smtp-int.bosch.com";
-        public static string mailFrom = "manojkumar.munuswamy@in.bosch.com";
+        public static string smtpServerName = "rb-smtp-int.com";
+        public static string mailFrom = "mb.usha1991@gmail.com";
 
     }
 }
