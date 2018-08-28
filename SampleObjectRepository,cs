@@ -1,0 +1,352 @@
+
+namespace NGW_SharePoint.ObjectRepository.SampleTest
+{
+    public class SampleTestObjectRepository
+    {
+        protected string browserURL = "http://executeautomation.com/demosite/index.html?UserName=&amp;Password=&amp;Login=Login";
+        protected string objSigInTextBoxName = "Sign-in address:";
+        protected string objSkypeversion = "2015";
+        protected string objPasswordTextBoxName = "Password:";
+        protected string objSignInButton = "Sign In";
+        protected string objStatusMenuItem = "Net UI Tool Window";
+        protected string objAvailableChangeStatus = "Available, Change My Status";
+        protected string objDNDChangeStatus = "Do not disturb, Change My Status";
+        protected string objAppearAway = "Away, Change My Status";
+        protected string objSignInAs = "Sign in as";
+        protected string ObjHelp = "Help";
+        protected string ObjFile = "File";
+        protected string objAboutSFB = "About Skype for Business";
+        protected string objSignOutButton = "Sign Out";
+        protected string objCloseButton = "Close";
+        protected string objSetMyLocation = "My Location";
+        protected string objMute = "Mute";
+        protected string objUnmute = "Unmute";
+        protected string objSkype = "Skype for Business 2015";
+        /// <summary>
+        /// Searching 
+        /// </summary>
+
+        protected string objFindSomeone = "Search Input";
+        protected string objSkypeforBusinessToast = "Skype for Business Toast";
+        protected string objLyncToastWindowClass = "LyncToastWindowClass";
+        protected string objStartIM = "Start IM";
+        /// <summary>
+        /// AddREmoveUSers
+        /// </summary>
+        protected string objAddGroupContactButton = "Add a contact, create a group, and customize the Contacts list";
+        protected string objNewGroupButton = "Create New Group";
+
+        protected string objAddContactList = "Add to Contacts List";
+        protected string objNewGroup = "New Group";
+        protected string objNewGroupListItem = " New Group group, Collapsed";
+        protected string objCopyContact = "Copy Contact To";
+        protected string objRemovefromGroup = "Remove from Group";
+        protected string objRemovefromContactList = "Remove from Contacts List";
+        protected string objGroup = "Groups";
+        protected string objSeeContacts = "See contacts by group";
+        protected string objOtherContacts = "Other Contacts";
+        protected string objCreatingGroupName = " New Group 0 group, Collapsed";
+        protected string objDeleteGroup = "Delete Group";
+
+        protected string objFirstNameId = "FirstName";
+        protected string objMiddleNameId = "MiddleName";
+        protected string objGenderRadioButtonName = "Female";
+        protected string objEnvironment = "Test Environment";
+
+        //View Contact card and View contact profile picture
+        protected string objSeeContactCardMenuItem = "NetUIHWND";
+        protected string objSeeContactCard = "See Contact Card";
+        protected string objContact = "Contact";
+        protected string objImage = "Profile Picture";
+        //Tag contacts
+        protected string objTagStatusChangeAlerts = "Tag for Status Change Alerts";
+        //IM
+        protected string objSendanIM = "Send an IM";
+        protected string LyncConversationWindowClassName = "LyncConversationWindowClass";
+        protected string InviteMorePeopleButtonName = "Invite More People";
+        protected string SearchNameButtonName = "Select a contact from the list or type a name or phone number";
+        protected string OKButtonName = "OK";
+
+        //Status
+        protected string objStatusName = "Change my note";
+        protected string objEnter = " { ENTER} ";
+        protected string objCtrlAll = ("^a");
+        protected string objDelete = " { DELETE} ";
+        //ChangePrivacyRelationship
+        protected string objChangePrivacyRelationship = "Change Privacy Relationship";
+        protected string objExternalContacts = "External Contacts";
+        protected string objColleagues = "Colleagues";
+        protected string objBlockedContacts = "Blocked Contacts";
+        protected string objSkypeWindowClassName = "NUIDialog";
+        protected string objDialogName = "Skype for Business";
+        protected string objOKButton = "OK";
+        protected string objChecked = "True";
+        protected string objYesButton = "Yes";
+
+        //Show Menu drop down
+        protected string objShowMenu = "Net UI Tool Window";
+        protected string objTools = "Tools";
+        protected string objBosch_Privacy_Supplement = "Bosch Privacy Supplement";
+        protected string objSfBBosch_FAQ = "SfB@Bosch FAQ";
+        protected string objReport_SfB_Issue = "Report a SfB Issue";
+
+        //windows start
+        protected string objStartButton = "Start";
+        protected string objSearchBox = "Search Box";
+        protected string objListItemName = "lync.exe";
+
+        //Desktop shortcut
+        protected string objlyncexeshortcut = "lync.exe - Shortcut";
+        // contact name on the skype
+        protected string objlabelclassname = "CommunicatorMainWindowClass";
+
+        //shortcut on the start menu toolbar
+        protected string objwindowclassname = "MSTaskSwWClass";
+        protected string objtoolbarname = "Running applications";
+        protected string objbuttonname = "Skype for Business ";
+
+        // shortcut Start menu
+        protected string objwindowname = "Start menu";
+        protected string objstartmenuClassname = "DV2ControlHost";
+        //paste
+        protected string objwindowAccessiblename = "Menu Group";
+        protected string objPasteMenuItem = "Paste";
+
+        //present programs
+        protected string objPresentProgramMenuItem = "Present Programs...";
+        protected string objWindowAccessibleName = "Present Programs";
+        protected string objPresentButton = "Present";
+
+        //present more
+        protected string objMoreMenuItem = "More...";
+        protected string objAccessiblename = "What would you like to start?";
+
+
+        // sender name window
+        protected string objEmailControlId = "4099";
+        protected string objMeetinControlId = "4106";
+        //Email from SFB
+        protected string objSendEmail = "Send an Email Message";
+        protected string objOutlookclassname = "rctrl_renwnd32";
+        protected string objSubjectControlId = "4101";
+        protected string objSubjectname = "Subject";
+        protected string objSendControlId = "4256";
+        protected string objSendname = "Send";
+        protected string objTo = "To";
+        //Schedule meeting from SFB
+        protected string objScheduleMeeting = "Schedule a Meeting";
+        protected string objScheduleControlId = "4100";
+        protected string objMicrosoftClassName = "#32770";
+        protected string objSendAnywayButton = "Send Anyway";
+        protected string objSendAnywayControlId = "7";
+
+        //Meeting tab
+        protected string objMeetingTab = "Meetings";
+
+        //Contacts Tab
+        protected string objContactsTab = "Contacts";
+
+        //Outlook File
+
+        protected string objFileAccessibleName = "Ribbon";
+        protected string objFileControlType = "PropertyPage";
+        protected string objFileButton = "File Tab";
+
+        //AUTOMATIC mails
+        protected string objAutomaticGroup = "Automatic Replies (Out of Office)";
+        protected string objAutomaticButton = "Automatic Replies...";
+        protected string objAutomaticWindowClassName = "#32770";
+        protected string objAutomaticSubWindowControlId = "4161";
+        protected string objRadioButtonName = "Send automatic replies";
+        protected string objAutomaticRepliesSubWindowMsgControlId = "4100";
+        protected string objAutomaticRepliesSubWindowOutMsgControlId = "4101";
+        protected string objOKSubWindowDialogControlId = "1";
+        protected string objMsgEditName = "Auto-reply message for people inside my organization";
+        protected string objOutMsgEditName = "Auto-reply message for people outside my organization";
+        protected string objOut = "Outside My Organization";
+        //Trigeer IM
+        protected string objSearchQuery = "Search Query";
+        protected string objSkypeContacts = "Skype for Business Contacts";
+        protected string objMyContacts = "My Contacts";
+        protected string objNavigation = "Navigation Bar";
+        protected string objPeople = "People";
+
+        //close button dialog
+        protected string objDialog = "Dialog";
+
+        //Schedule Meeting from Outlook
+        protected string objScheduleAMeeting = "Calendar";
+        protected string objScheduleAMeetingInstance = "2";
+        protected string objSkypeMeeting = "Skype Meeting";
+        protected string objSubjectControlIdFromOutlook = "4100";
+        protected string objLocationClassNameFromOutlook = "REComboBox20W";
+        //Minimize
+        protected string objMinimize = "Minimize";
+
+        //Scrollbar
+        protected string objScrollbarName = "Vertical";
+        protected string objButtonName = "Line up";
+        protected string objAccessibleName = "Context";
+        protected string objClassName = "#32768";
+        protected string objMenuName = "Page Down";
+        protected string objTopMenuName = "Top";
+
+        //send file window
+        protected string objSendFileName = "Send a File to All Participants";
+        protected string objOpenButton = "Alt+o";
+        protected string objControlIdFileWindow = "1148";
+        protected string objInstanceFileWindow = "2";
+        protected string objControlIdOpenWindow = "1";
+        protected string objControlIdAddressWindow = "1001";
+        protected string objComboBoxName = "File name:";
+        protected string objToolBarName = "Address: ";
+
+        //join skype meeting from outlook
+        protected string objCalendar = "Calendar";
+
+        // Call
+        protected string objMenuCall = "Call";
+        protected string objSubMenuSkyCall = "Skype for Business Call";
+
+        //Sip Address
+        protected string objChange = "Change";
+        protected string objSkypeOptions = "Skype for Business - Options";
+        protected string objCtrlId = "14";
+        protected string objContactingserver = "Contacting server and signing in...";
+        protected string objUserName = "User name:";
+        protected string objCantSignIn = "Can't sign in to Skype for Business";
+
+        protected string objDialogSkype = "Skype for Business";
+
+        protected string objMicrosoftOutlook = "Microsoft Outlook";
+        protected string objYesControlId = "6";
+        protected string objReminderControlId = "8345";
+
+        //IM image
+        protected string objIMButton = "IM Pane";
+
+
+        // Local time
+        protected string objChangemylocation = "Change my location";
+        protected string objSetYourLocation = "Set Your Location";
+        protected string objLocation = "Bangalore";
+
+        //Audio
+        protected string objDesktopViewer = "SFBTesting_S - Desktop Viewer";
+        protected string objAlert = "Alert";
+        protected string objunmuted = "Your microphone is unmuted. Press space to mute.";
+
+
+        //hold and resume
+        protected string objcallcontrols = "Call Controls button. Press the up arrow to open the menu.";
+        protected string objcallout = "Skype Callout";
+        protected string objcallclassname = "MsoWorkPane";
+        protected string objHold = "Hold";
+        protected string objCallHold = "This call is on hold.";
+        protected string objResumeCall = "Resume Call";
+
+        protected string objShowMenuoption = "Show Menu";
+        protected string objConversation = "Conversation";
+        protected string objCloseParticipantList = "Close Participant List";
+        protected string objInvitebyName = "Invite by Name or Phone Number";
+        protected string objMicrophonemuted = "Your microphone is muted. Press space to unmute.";
+
+        protected string objstopaudio = "Stop audio";
+        protected string objTakeOverasPresenter = "Take Over as Presenter";
+        protected string objInternetExplorer_Server = "Internet Explorer_Server";
+        protected string objQAwebpage = "Q & A web page";
+        protected string objAskQuestion = "Ask a question.As soon as a presenter answers it, everyone will see it.";
+        protected string objMyNotes = "My Notes...";
+        protected string objSelectLocationinOneNote = "Select Location in OneNote";
+        protected string objRecentpicks = "Recent picks";
+        protected string objQuickNotes = "Quick Notes";
+        protected string objApplication = "Application";
+        protected string objMoreoptions = "More options";
+        protected string objManageRecordings = "Manage Recordings";
+        protected string objSkypeforBusinessRecordingManager = "Skype for Business Recording Manager";
+        protected string objSkypeforBusinessRecordingManagerClass = "LyncW15RecordingManagerMainWindowClass";
+        protected string objExit = "Exit";
+        protected string objJoinMeetingAudio = "Join Meeting Audio";
+        protected string objMeetNow = "Meet Now";
+
+        //Join Skype Meeting
+        protected string objMail = "Mail";
+        protected string objNew = "New";
+        protected string objNewItems = "New Items";
+        protected string objUntitledMeeting = "Untitled - Meeting  ";
+        protected string objStartDateControlId = "4098";
+        protected string objStartDate = "Start date";
+        protected string objStartTimeControlId = "4096";
+        protected string objStartTime = "Start time";
+        protected string objEndDate = "End date";
+        protected string objEndTime = "End time";
+        protected string objEndTimeControlId = "4097";
+        protected string objGoTo = "Go To";
+        protected string objGoToDate = "Go to Date...";
+        protected string objGoTodate = "Go To Date";
+        protected string objDate = "Date:";
+        protected string objSelectControlId = "4480";
+        protected string objShowin = "Show in:";
+        protected string objDayCalendar = "Day Calendar";
+        protected string objJoinSkypeMeeting = "Join Skype Meeting";
+        protected string objOpen = "Open";
+
+        //Present Desktop
+        protected string objPresentDesktop = "Present Desktop";
+        protected string objPresentDesktopMenu = "Present Desktop...";
+        protected string objPresent = "Present";
+        protected string objStopPresenting = "Stop Presenting";
+
+        //whiteboard
+        protected string objWhiteboard = "Whiteboard";
+        protected string objPoll = "Poll";
+        protected string objQnA = "Q & A";
+
+        //Maximize
+        protected string objMaximize = "Maximize";
+
+        //close all tabs
+        protected string objDoYouWantToClose = "Do you want to close all tabs or the current tab?";
+        protected string objCloseAllTabs = "Close All Tabs";
+
+
+        protected string objNUIDocumentWindow = "NUIDocumentWindow";
+        protected string objNetUINativeHWNDHost = "NetUINativeHWNDHost";
+        protected string objSpeakerView = "Speaker View";
+        protected string objSwitchView = "Switch View";
+
+        protected string objTurnOff = "Turn off";
+        protected string objBack = "Back";
+
+        protected string objOptions = "Options";
+        protected string objSysTreeView32 = "SysTreeView32";
+        protected string objmaincalendarctrlid = "20";
+        protected string objsubcalendarctrlid = "21";
+        protected string objPersonal = "Personal";
+        protected string objUpdate = "Update my presence based on my calendar information";
+        protected string objShowmeeting = "Show meeting subject and location to contacts in my Workgroup privacy relationship";
+
+
+        protected string objReminder = "Reminder(s)";
+        protected string objDoyou = "Do you want us to save your Skype for Business sign-in info?";
+        protected string objNo = "No";
+
+        protected string objNavigationMenu = "Navigation Menu";
+
+        protected string objAnswerCall = "Accept";
+        protected string objDisconnectCall = "Stop audio";
+        protected string objReplyByIm = "Reply by IM";
+        protected string objPressSpaceToCall = "Press space to call, or press the up arrow for more options.";
+
+        //Objects- IT WorkPlace Toolkit - Grant Support Access 
+        protected string objParentToolbarName = "User Promoted Notification Area";
+        protected string objToolbarName = "User Promoted Notification Area";
+        protected string objIWTButton = "IT Workplace Toolkit";
+        protected string objIWTwindow = "IWT v2.7.308.1";
+
+        protected string objRemWindowMaxClassNAme = "TscShellContainerClass";
+
+        protected string objOutlook = "Microsoft Outlook";
+
+    }
+}
